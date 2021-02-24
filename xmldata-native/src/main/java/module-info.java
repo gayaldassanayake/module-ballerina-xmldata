@@ -18,5 +18,6 @@
 
 module io.ballerina.stdlib.xmlutils {
     requires io.ballerina.runtime;
-    exports org.ballerinalang.stdlib.xmlutils;
+    requires java.xml;
+    exports org.ballerinalang.stdlib.xmldata;
 }

@@ -1,0 +1,17 @@
+[package]
+org = "ballerina"
+name = "xmldata"
+version = "1.1.0-alpha4"
+
+[[platform.java11.dependency]]
+path = "../xmldata-native/build/libs/xmldata-native-1.1.0-alpha4-SNAPSHOT.jar"
+groupId = "ballerina"
+artifactId = "xmldata"
+version = "1.1.0-alpha4-SNAPSHOT"
+
+[[platform.java11.dependency]]
+path = "../xmldata-test-utils/build/libs/xmldata-test-utils-1.1.0-alpha4-SNAPSHOT.jar"
+groupId = "org.ballerinalang.stdlib.xmldata"
+artifactId = "xmldata"
+version = "1.1.0-alpha4-SNAPSHOT"
+scope = "testOnly"
